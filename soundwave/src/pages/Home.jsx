@@ -1,15 +1,15 @@
 import React from 'react';
-import '../Home/Home.css';
-import Image from '../../images/landing-page-girl.png';
-import Header from '../../Header/Header';
-import Footer from '../../Footer/Footer';
+import '../Styles/App.css';
+import Image from '../images/landing-page-girl.png';
+import Header from '../components/Header';
+import Footer from '../components/Footer';
 
 
 const Home = () => {
   return (
     <>
     <Header />
-         <div>
+         <main>
           <div>
           <img src={Image} /* width='40' */ alt="girl" />
           </div>
@@ -18,7 +18,7 @@ const Home = () => {
             <p>Stream over 20 mil songs with one click</p>
             <button>Join Now</button>
           </div>
-         </div>
+         </main>
      <Footer/>
     </>
  

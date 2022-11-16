@@ -1,7 +1,7 @@
 import React from 'react';
-import '../Join/Join.css';
-import Header from '../../Header/Header';
-import Footer from '../../Footer/Footer';
+import '../Styles/App.css';
+import Header from '../components/Header';
+import Footer from '../components/Footer';
 
 
 
@@ -9,7 +9,7 @@ const Join = () => {
   return (
     <>
     <Header />
-        <div>
+        <main>
           <div>
             <h1>Join the <span>fun</span></h1>
           </div>
@@ -27,7 +27,7 @@ const Join = () => {
              <button type="submit">Submit</button>     
            </form>
           </div>
-         </div>
+         </main>
          <Footer/>
          </>
   )

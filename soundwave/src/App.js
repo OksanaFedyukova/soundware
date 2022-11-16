@@ -1,17 +1,18 @@
-import './App.css';
+import './Styles/App.css';
+
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
-import Home from  '../src/components/pages/Home/Home';
-import  Discover from '../src/components/pages/Discover/Discover';
-import Join from '../src/components/pages/Join/Join';
+import Home from  './pages/Home';
+import  Discover from './pages/Discover';
+import Join from './pages/Join';
 
 function App() {
   return (
     <div className="App">
-      <Router>
+       <Router>
          <Routes>
-           <Route path="/" element={<Home/>}/>
-           <Route exact path="/" element={<Discover/>}/>
-           <Route exact path="/" element={<Join/>}/>
+           <Route path="/" index exact  element={<Home/>}/>
+           <Route  path="/discover" exact element={<Discover/>}/>
+           <Route path="/join"  exact element={<Join/>}/>
          </Routes>
       </Router>
 

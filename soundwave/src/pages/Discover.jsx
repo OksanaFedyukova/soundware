@@ -1,14 +1,14 @@
 import React from 'react';
-import '../Discover/Discover.css';
-import Image from '../../images/covers.jpg';
-import Header from '../../Header/Header';
-import Footer from '../../Footer/Footer';
+import '../Styles/App.css';
+import Image from '../images/covers.jpg';
+import Header from '../components/Header';
+import Footer from '../components/Footer';
 
 
 const Discover = () => {
   return ( <>
      <Header />
-         <div>
+         <main>
           <div>
             <h2>Feel The Music</h2>
             <button>Charts</button>
@@ -19,7 +19,7 @@ const Discover = () => {
           <div>
           <img src={Image} /* width='40' */ alt="covers" />
           </div>
-         </div>
+         </main>
     <Footer />
  </>
   )
