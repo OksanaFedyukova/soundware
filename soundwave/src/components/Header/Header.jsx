@@ -7,16 +7,16 @@ const Header = () => {
   return (
     <nav>  
          <div>
-            <a href="#">
+            <a href="/">
                 <img src={Logo} width='40' alt="logo" />
                 <span>Sounwave</span>
             </a>
             <ul>
                 <li>
-                    <a href="#">Discover</a>
+                    <a href="/">Discover</a>
                 </li>
                 <li>
-                <a href="#">Join</a>
+                <a href="/">Join</a>
                 </li>
             </ul>
          </div>
