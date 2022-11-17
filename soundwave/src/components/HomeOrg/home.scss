@@ -1,9 +1,16 @@
 @import '../../Styles/variables.scss' ;
-
+h1{
+    font-style: $theme-font;
+    word-spacing: 0.5rem;
+}
+.container {
+    margin-bottom: 10%;
+}
 .btnJoin {
     background-color: $buttonbgcolor;
     color: $textcolor;
     width: 120px;
+    margin-bottom: 10%;
 }
 .btnJoin:hover{
    background-color: $buttonhover;
@@ -11,11 +18,41 @@
 .btnJoin:focus {
     background-color: $buttonfocus;
 }
+
 .imgGirl {
-    width: 70%;
+    width: 65%;
+    margin-top: 10%
 };
+
+@media (max-width:700px)
+{
+    .textHome {text-align: center;
+        margin-left: 10%;
+        margin-top: 10%;
+    };
+}
 .textHome {
     text-align: left;
     margin-top: auto;
     margin-top: 25%;
+};
+@media (max-width:500px)
+{
+    .imgGirl {display: none;
+
+    }
+};
+.circle1 {
+    width: 200px;
+    height:200px;
+    background-color:$circle1;
+    border-radius: 50%;
+    float: left;
+};
+.circle2 {
+    width: 100px;
+    height:100px;
+    background-color:$circle2;
+    border-radius: 50%;
+    float: left;
 }
