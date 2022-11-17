@@ -1,0 +1,19 @@
+@import '../../Styles/variables.scss' ;
+.btnDisvover {
+    font-weight: 500;
+    background-color: $bgcolorfooter;
+    height: 70px;
+    width: 70px;
+    border: none;
+    margin-right: 1.2rem;
+    color: white;
+    margin-bottom: 5%;
+}
+.btnDisvover:hover{
+    background-color: $borderinputcolor;
+color: $accenttext;
+}
+h2 {
+    margin-top: 20%;
+    margin-bottom: 5%;
+}

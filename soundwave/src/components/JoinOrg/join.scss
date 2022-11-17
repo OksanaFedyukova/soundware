@@ -1,0 +1,51 @@
+@import '../../Styles/variables.scss' ;
+
+h1 {
+    font-weight: bold;
+}
+.fun{
+    color: $accenttext;
+font-weight: 800;
+font-size: 2.3rem;
+}
+.btnSubmit{
+    background-color: $buttonbgcolor;
+width: 100%;
+margin-bottom: 7%;
+margin-top: 7%;
+color: $textcolor;
+}
+.btnSubmit:hover {
+    background-color: $buttonhover;
+};
+///////FORM /////////////////
+#registration-form {
+    font-family:$theme-font;
+    width: 37%;
+    min-width:250px;
+    margin: 20px auto;
+    position: relative;
+  }
+  #registration-form .fieldset {
+    background-color: $bgcolorfooter;
+    border-radius: 1.5rem;
+  }
+  .fieldset form{
+    border:0.5px solid $bgcolorfooter;
+    margin:0 auto;
+    display:block;
+   
+    width:100%;
+    padding:30px 20px;
+    box-sizing:border-box;
+    border-radius: 1.5rem;
+  }
+  #registration-form input[type=text] {
+    border-radius: 7%;
+    margin:5px auto;
+    background-color:$bgcolorfooter;
+    border: 0.5px solid $borderinputfocus;
+    width: 100%;
+  }
+  
+

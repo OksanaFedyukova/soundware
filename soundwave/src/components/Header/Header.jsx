@@ -1,16 +1,18 @@
 import React from 'react';
-import '../../Styles/App.css';
+import './header.scss';
 import Logo from '../../images/logo.png';
 import {Link} from 'react-router-dom';
 
 const Header = () => {
   return (
     <nav>  
-         <div>
+         <div className='navbar'>
+          <ul>
             <a href="/">
-                <img src={Logo} width='40' alt="logo" />
-                <span>Sounwave</span>
+              <li><img src={Logo} width='40' alt="logo" /></li>  
+              <li><span>Sounwave</span></li>
             </a>
+            </ul>
             <ul>
                 <li>
                     <Link to ="/discover">Discover</Link>

@@ -1,0 +1,25 @@
+@import '../../Styles/variables.scss' ;
+
+footer {
+    background-color: $bgcolorfooter;
+    font-family: 'Poppins', sans-serif;
+    
+ a {text-decoration-line: none;
+    color: $textcolor;};
+    a:hover {
+        color: $accenttext;
+    }
+} ;
+
+ul {
+    list-style-type: none;
+    font-weight:500;
+    li {
+        float: left;
+        margin-right: 10px;
+    }
+}  
+.container-sm {display: flex;
+    justify-content: space-between;
+    margin-right: 10px;
+}
