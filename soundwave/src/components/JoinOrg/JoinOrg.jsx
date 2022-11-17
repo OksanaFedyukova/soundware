@@ -4,13 +4,18 @@ import './join.scss';
 const JoinOrg = () => {
   return (
     <main>
-    <div>
+       <div className='container'>
+    <div className='row'>
+         <div className='col-sm-6'>
     <h1>Join the <span className='fun'>fun.</span></h1>
+    <div className='circle2'></div>
+    <div className='circle1'></div>
   </div>
-  <div>
+  <div className='col-sm-6'>
   <div id="registration-form">
   <div class='fieldset'>
     <form>
+  
       <div class='row'>
         <label for='firstname'>Name</label>
         <input type="text" name='firstname' id='firstname'/>
@@ -28,18 +33,8 @@ const JoinOrg = () => {
     </form>
   </div>
 </div>
-  {/* <form>
-      <label> Name: <input type="text" name="name" />
-     </label>
-     <br />
-     <label> Email: <input type="text" name="email" />
-     </label>
-     <br/>
-     <label> Password: <input type="text" name="password" />
-     </label>
-      <br/>
-     <button type="submit" className='btn btnSubmit' >Submit</button>     
-   </form> */}
+  </div>
+  </div>
   </div>
   </main>
   );

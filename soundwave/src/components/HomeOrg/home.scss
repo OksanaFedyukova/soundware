@@ -55,4 +55,10 @@ h1{
     background-color:$circle2;
     border-radius: 50%;
     float: left;
-}
+};
+@media (max-width:390px)
+{
+    .circle1, .circle2 {display: none;
+
+    }
+};

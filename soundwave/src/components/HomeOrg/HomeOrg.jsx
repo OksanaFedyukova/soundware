@@ -11,7 +11,6 @@ const HomeOrg = () => {
             <div className='circle1'></div>
           </div>
             <div className='col-sm-4'>
-
               <picture>
                 <source media = 'min-width: 900px'/>
               <img className='imgGirl' src={Image} /* width='40' */ alt="girl" /></picture>
