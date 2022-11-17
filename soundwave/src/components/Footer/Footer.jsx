@@ -1,23 +1,23 @@
 import React from 'react';
-import '../../Styles/App.css';
-
-
+import './footer.scss';
+import Facebook  from '../../images/facebook.svg';
+import Twitter  from '../../images/twitter.svg';
 
 const Footer = () => {
   return (
-    <footer>  
-         <div>
-         <ul>
+    <footer className='footer'>  
+         <div className='container-sm'>
+         <ul className='footnav'>
             <li> <a href="/">About Us</a>
             </li>
             <li><a href="/">Contact</a>
              </li>
          </ul>
-        <ul>
-           <li> <a href="/">Facebook</a>
+        <ul className='socialM'>
+           <li><a href="/">  <img src={Twitter} width='15' alt="twitter" /> Twitter</a>
+          </li> 
+          <li> <a href="/">  <img src={Facebook} width='15' alt="faceboor" /> Facebook</a>
            </li>
-           <li><a href="/">Twiter</a>
-          </li>
         </ul>
          </div>
     </footer>

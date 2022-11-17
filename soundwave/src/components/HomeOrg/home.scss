@@ -1,0 +1,21 @@
+@import '../../Styles/variables.scss' ;
+
+.btnJoin {
+    background-color: $buttonbgcolor;
+    color: $textcolor;
+    width: 120px;
+}
+.btnJoin:hover{
+   background-color: $buttonhover;
+}
+.btnJoin:focus {
+    background-color: $buttonfocus;
+}
+.imgGirl {
+    width: 70%;
+};
+.textHome {
+    text-align: left;
+    margin-top: auto;
+    margin-top: 25%;
+}
