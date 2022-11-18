@@ -3,6 +3,7 @@ h1{
     font-style: $theme-font;
     word-spacing: 0.5rem;
 }
+
 .container {
     margin-bottom: 10%;
 }
@@ -11,6 +12,8 @@ h1{
     color: $textcolor;
     width: 120px;
     margin-bottom: 10%;
+  float: left;
+    
 }
 .btnJoin:hover{
    background-color: $buttonhover;
@@ -29,6 +32,10 @@ h1{
     .textHome {text-align: center;
         margin-left: 10%;
         margin-top: 10%;
+        p{
+            text-align: right;
+        };
+
     };
 }
 .textHome {

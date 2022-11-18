@@ -18,8 +18,9 @@ const HomeOrg = () => {
             <div className='col-sm-6'>
             <div className='circle2'></div>
              <div className='textHome'> 
-        <h1 >Feel The Music</h1>
+        <h1>Feel The Music</h1>
       <p>Stream over 20 mil songs with one click</p>
+      <br />
       <button className='btn btnJoin'>Join Now</button>
       </div>
       </div>
