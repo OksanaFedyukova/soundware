@@ -20,7 +20,7 @@ const DiscoverOrg = () => {
     </div>
   </div>
   <div className='col-md-6'>
-  <img className='imgGirl' src={Image} /* width='40' */ alt="covers" />
+  <img className='imgCollage' src={Image} /* width='40' */ alt="covers" />
   </div>
   </div>
   </div>

@@ -1,4 +1,13 @@
 @import '../../Styles/variables.scss' ;
+h2 {
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+p{
+    margin-right: 7%;
+    margin-left: 0;
+    float: left;
+}
 .btnDisvover {
     font-weight: 500;
     background-color: $bgcolorfooter;
@@ -13,7 +22,10 @@
     background-color: $borderinputcolor;
 color: $accenttext;
 }
-h2 {
-    margin-top: 20%;
-    margin-bottom: 5%;
-}
+
+.imgCollage{
+        width: 65%;
+        margin-top: 10%;
+        margin-left:5%;
+        margin-bottom: 25vh;
+    };
